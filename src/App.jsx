@@ -1,5 +1,6 @@
+import About from "./About";
 import Hero from "./Hero";
-
+import Intro from "./Intro";
 function App() {
 
   return (
@@ -7,7 +8,8 @@ function App() {
       
 
      <Hero/>
-     
+     <About/>
+     <Intro/>
     </div>
   )
 }

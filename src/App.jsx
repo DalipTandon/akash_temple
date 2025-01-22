@@ -5,6 +5,7 @@ import Hero from "./Hero";
 import Intro from "./Intro";
 import Navbar from "./Navbar";
 import ImageGallery from "./ImageGallery";
+import Footer from "./Footer";
 function App() {
   return (
     <Router> {/* Wrap your components inside BrowserRouter */}
@@ -14,6 +15,7 @@ function App() {
         <About />
         <Intro />
         <ImageGallery/>
+        <Footer/>
       </div>
     </Router>
   );

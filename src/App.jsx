@@ -4,7 +4,7 @@ import About from "./About";
 import Hero from "./Hero";
 import Intro from "./Intro";
 import Navbar from "./Navbar";
-
+import ImageGallery from "./ImageGallery";
 function App() {
   return (
     <Router> {/* Wrap your components inside BrowserRouter */}
@@ -13,6 +13,7 @@ function App() {
         <Hero />
         <About />
         <Intro />
+        <ImageGallery/>
       </div>
     </Router>
   );

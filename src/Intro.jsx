@@ -10,6 +10,7 @@ export default function LayoutGridDemo() {
   return (
     <div className="h-screen  py-10 w-full">
       <LayoutGrid cards={cards} />
+      <h2 className="w-full flex justify-center text-5xl  font-serif">Wall of Memory</h2>
     </div>
   );
 }
